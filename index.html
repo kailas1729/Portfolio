@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Name - Portfolio">
+    <meta name="keywords" content="portfolio, projects, contact">
+    <title>Kailas Akhade - Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style type="text/css">
+        /* Add your custom styles here */
+        html{
+            scroll-behavior: smooth;
+        }
+        body {
+            padding-top: 56px; /* Adjust based on the height of your navbar */
+            background-color: #111; /* Darkest background color */
+            color: #fff; /* Light text color */
+        }
+
+        .navbar {
+            background-color: transparent;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+            padding-left: 20px; /* Add left padding */
+            padding-right: 20px; /* Add right padding */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-left: 60px;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .nav-item {
+            margin-right: 50px;
+        }
+
+        .navbar-dark .navbar-toggler-icon
+        .navbar-toggler-icon {
+            background-color: #fff; /* Light color for the navbar toggler icon */
+        }
+
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #00BFFF; /* Change hover color for navigation links */
+        }
+
+        .navbar-nav .nav-link.home-link {
+            color: #007bff; /* Blue color for Home link */
+        }
+
+        .navbar-nav .nav-link:not(.home-link):hover {
+            color: #fff; /* Hover color for other links */
+        }
+
+        .navbar-collapse {
+            justify-content: flex-end;
+        }
+
+        .row {
+            font-family: 'agbalumo';
+        }
+
+        .btn-outline-light {
+            background-color: #00008B;
+            font-weight: bold;
+        }
+
+        .btn-outline-light:hover {
+            transform: scale(1.05); /* Add a scale effect on button hover */
+        }
+
+        .container {
+            margin-top: 5rem;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .py-5 {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="font-family: 'Bebas Neue'">
+        <a class="navbar-brand" href="#">Portfolio.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link home-link" href="#portfolio"
+                        style="color: #00008B; font-weight: bold;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+<section id="about" class="container mt-5 fade animate__animated" data-aos="fade-up">
+    <div class="row">
+        <div class="col-lg-6">
+            <p style="font-size: 2em; font-weight:bold;">Hello, It's me</p>
+            <p><span style="font-size: 4em; font-weight: bolder;">Kailas Akhade</span></p>
+            <p style="font-size: 2rem; font-weight: bold;">And I'm a frontend developer.</p>
+            <p>An Enthusiastic and a passionate Coder<br>with an eye for detail and focus to<br>produce quality
+                work</p>
+            <a href="#contact" class="btn btn-outline-light btn-lg my-2 my-sm-0">Contact Me</a>
+        </div>
+        <div class="col-lg-6 text-center">
+            
+                <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                <defs>
+                    <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                        <stop id="stop1" stop-color="rgba(248, 117, 55, 1)" offset="0%"></stop>
+                        <stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <mask id="mask1" mask-type="alpha">
+                    <path fill="url(#sw-gradient)" d="M26.2,-32.9C32.6,-25.9,35.4,-16.3,37.3,-6.5C39.2,3.4,40,13.5,35.7,20.2C31.3,26.9,21.7,30.1,12.9,31.8C4,33.4,-4.1,33.6,-13.1,32C-22,30.4,-31.7,27.2,-37.7,20.1C-43.7,13.1,-46,2.3,-42.5,-5.7C-38.9,-13.7,-29.5,-18.9,-21.5,-25.6C-13.4,-32.3,-6.7,-40.5,1.6,-42.4C9.9,-44.3,19.8,-39.9,26.2,-32.9Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;">
+                    </path>
+                </mask>
+                <g mask="url(#mask1)">
+                    <path fill="url(#sw-gradient)" d="M26.2,-32.9C32.6,-25.9,35.4,-16.3,37.3,-6.5C39.2,3.4,40,13.5,35.7,20.2C31.3,26.9,21.7,30.1,12.9,31.8C4,33.4,-4.1,33.6,-13.1,32C-22,30.4,-31.7,27.2,-37.7,20.1C-43.7,13.1,-46,2.3,-42.5,-5.7C-38.9,-13.7,-29.5,-18.9,-21.5,-25.6C-13.4,-32.3,-6.7,-40.5,1.6,-42.4C9.9,-44.3,19.8,-39.9,26.2,-32.9Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;">
+                    </path>
+                <image href="img2.jpg" alt="Profile Picture of Your Name" class="img-fluid" style="width: 70px x='12' y='18';">
+            </g>
+            </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-dark container mt-5 py-5 fade animate__animated" data-aos="fade-up" style="color: black;">
+        <h2 class="text-center mb-4" style="color: whitesmoke;">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img2.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">This is a demo website for an unofficial institution known as power academy.</p>
+                        <a href="https://kailas1729.github.io/Power-Academy-Website/" class="btn btn-primary">Visit The Website</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container mt-5 py-5 fade animate__animated" data-aos="fade-up">
+        <h2 class="text-center mb-4">Skills</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Programming Languages</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>C language</li>
+                    <li>Python</li>
+                    <li>Tableau</li>
+                    <li>R programming</li>
+                    <li>Mysql</li>
+                    <li>Excel</li>
+                    <!-- Add more languages as needed -->
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Frameworks & Libraries</h4>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>WordPress</li>
+                    <!-- Add more frameworks and libraries as needed -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="bg-dark text-white container mt-5 py-5 fade animate__animated" data-aos="fade-up">
+        <h2 class="text-center mb-4">Resume</h2>
+
+        <!-- Resume Image -->
+        <div class="text-center">
+            <img src="resume.png" alt="Resume" class="img-fluid">
+        </div>
+    </section>
+
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="container mt-5 py-5 fade animate__animated" data-aos="fade-up">
+    <h2 class="text-center mb-4">Contact Me</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <p>Feel free to reach out to me through the following channels:</p>
+            <ul>
+                <li>
+                    <strong></strong>
+                    <a href="mailto:akhadekailas123@gmail.com" style="color: antiquewhite;">
+                        <i class="fas fa-envelope"></i> akhadekailas123@gmail.com
+                    </a>
+                </li>
+                <li>
+                    <strong></strong>
+                    <a href="tel:+917666946276" style="color: floralwhite;">
+                        <i class="fas fa-phone"></i> +91 7666946276
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <p>Connect with me on social media:</p>
+            <ul>
+                <li>
+                    <strong></strong>
+                    <a href="https://www.linkedin.com/in/kailas-akhade-633940271/" target="_blank" style="color: whitesmoke;">
+                        <i class="fab fa-linkedin"></i> LinkedIn Profile
+                    </a>
+                </li>
+                <li>
+                    <strong></strong>
+                    <a href="https://www.instagram.com/kailas.0x" target="_blank" style="color: ghostwhite;">
+                        <i class="fab fa-instagram"></i> Instagram Profile
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    x</script>
+
+</body>
+
+</html>
+
